@@ -1,0 +1,28 @@
+{
+  "name": "promises-js-expert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "npx mocha -w --exit test/",
+    "test":"npx mocha --parallel test/",
+    "test:cov":"npx nyc --check-coverage --instrument --reporter=html --reporter=text npm test",
+    "start":"node src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlpc1/promises-js.git"
+  },
+  "keywords": [],
+  "author": "“davidlpc1” <davilucasdlcreator@gmail.com>",
+  "license": "“MIT”",
+  "bugs": {
+    "url": "https://github.com/davidlpc1/promises-js/issues"
+  },
+  "homepage": "https://github.com/davidlpc1/promises-js#readme",
+  "devDependencies": {
+    "mocha": "8",
+    "nyc": "15",
+    "sinon": "9"
+  }
+}
